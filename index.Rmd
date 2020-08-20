@@ -1,0 +1,150 @@
+---
+title: "Einführung in die moderne Datenanalyse mit R"
+author: "<br><a href='https://therbootcamp.github.io'>
+        <i class='fas fa-home' style='font-size:1em;'></i>
+      </a>
+      <a href='https://therbootcamp.github.io/I2R_2020Mar/'>
+        <i class='fas fa-clock' style='font-size:1em;' ></i>
+      </a>
+      <a href='mailto:therbootcamp@gmail.com'>
+        <i class='fas fa-envelope' style='font-size: 1em;'></i>
+      </a>
+      <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
+        <i class='fab fa-linkedin' style='font-size: 1em;'></i>
+      </a>
+      <a href='https://therbootcamp.github.io'>
+        <font style='font-style:normal;font-size:20px;padding-left:5px'>The R Bootcamp</font>
+      </a>
+      <br>
+      <img src='https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/by-sa.png' style= 'height:17px;vertical-align:baseline'/><font style='font-style:normal;font-size:20px;padding-left:8px'>August 2020</font>
+      "
+date: ""
+output:
+  html_document:
+    css: index.css
+    self_contained: no
+---
+
+<br><br>
+
+<div align="center">
+
+<h2>DOWNLOADS</h2>
+
+<table width=50% cellspacing=0 cellpadding=0 class="downloads">
+  <tr>
+    <td align=center>
+      <h4>Code</h4>
+      <a href="https://raw.githubusercontent.com/therbootcamp/I2R_2020Mar/master/_download/code/I2R_code.zip">
+      <span class="fa-stack fa-3x active">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+      </span>
+      </a>
+    </td>
+    <td align=center>
+      <h4>Daten</h4>
+      <a href="https://raw.githubusercontent.com/therbootcamp/I2R_2020Mar/master/_download/data/I2R_data.zip">
+      <span class="fa-stack fa-3x active">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-database fa-stack-1x fa-inverse"></i>
+      </span>
+      </a>
+    </td>
+    <td align=center>
+      <h4>Lösungen</h4>
+      <a href="">
+      <span class="fa-stack fa-3x inactive">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+      </span>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<h2>ZEITPLAN</h2>
+
+<table width=50% cellspacing=0 cellpadding=0 class="my-table">
+
+<col width="5%">
+<col width="60%">
+
+<tr>
+   <th align="right">1320</th>
+   <td class="td-special-blue" rowspan = 1 ><e>[Willkommen!](_sessions/Willkommen/Willkommen.html)</e>
+</tr>
+
+<tr>
+   <th align="right">1320</th>
+   <td class="td-red" rowspan=2>
+     <a href="_sessions/WarumR/WarumR.html" style=" display: block;height:100%;width:100%">
+     <div style="width:100%;height:100%;margin:0;padding:0;">
+        <e>Warum R</e><i class="fas fa-external-link-alt"></i>
+    </div> 
+     </a>
+   </td>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+
+<tr>
+   <th align="right">1350</th>
+   <td class="td-grey" rowspan = 2 ><e>[R(Studio)](_sessions/R(Studio)/R-Studio-.html)</e>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+
+<tr>
+   <th align="right">1420</th>
+   <td class="td-grey" rowspan = 2 ><e>[Assignments](_sessions/Assignments/Assignments.html)</e>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+  
+<tr>
+   <th align="right">1450</th>
+   <td class="td-special-grey" rowspan = 2 ><i>Pause</i>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+ 
+<tr>
+   <th align="right">1520</th>
+   <td class="td-grey" rowspan = 2 ><e>[Funktionen](_sessions/Funktionen/Funktionen.html)</e>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+  
+<tr>
+   <th align="right">1555</th>
+   <td class="td-grey" rowspan = 2 ><e>[Daten I/O](_sessions/DataIO/DataIO.html)</e>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+
+<tr>
+   <th align="right">1630</th>
+   <td class="td-grey" rowspan = 2 ><e>[Analyse](_sessions/Analyse/Analyse.html)</e>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+
+<tr>
+   <th align="right">1700</th>
+   <td class="td-red" rowspan = 3 ><e>[Nächste Schritte](_sessions/NächsteSchritte/NächsteSchritte.html)</e>
+</tr>
+
+<tr> <th align="right">&nbsp;</th> </tr>
+<tr> <th align="right">&nbsp;</th> </tr>
+
+<tr>
+   <th align="right">1745</th>
+   <td class="td-special-blue"> Wrap-up
+</tr>
+</table>
+  
+<div>
+
