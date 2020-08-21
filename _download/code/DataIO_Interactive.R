@@ -6,13 +6,11 @@
 
 ### Daten von Festplatte lesen ----------------------------
 
-# Finde die Datei Tourismus.csv auf deinem Computer
-
-# Bewege die Datei Tourismus.csv in deinen 1_Data Ordner
+# Stelle sicher, dass Tourismus.csv in deinem 1_Data Ordner liegt
 
 # Lese die Datei mittels read.csv() ein. Denke an den Auto-Complete Trick
 
-# Stelle sicher, dass die Daten im Objekt mit Namen `daten` gespeichert sind
+# Weise die Daten einem Objekt mit Namen `daten` zu
 
 ### Daten leben in data.frames ----------------------------
 

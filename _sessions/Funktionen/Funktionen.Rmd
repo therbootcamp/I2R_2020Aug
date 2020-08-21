@@ -2,10 +2,10 @@
 title: "Funktionen"
 author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://therbootcamp.github.io'>
-    Basel R Bootcamp
+    The R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2020Mar/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Aug/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "März 2020"
+date: "August 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | März 2020
+      Einführung in die moderne Datenanalyse mit R | August 2020
       </font>
     </a>
     </span>
@@ -234,6 +234,36 @@ mean(c(1, 2, 3, NA), na.rm = TRUE)
 
 ```
 ]
+
+---
+
+# Klassen 
+
+.pull-left4[
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span><high>Die Klasse der Argumente ist wichtig</high></span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
+]
+
+.pull-right5[
+
+<p align = "center">
+<img src="image/types.png"><br>
+</p>
+
+]
+
 
 
 

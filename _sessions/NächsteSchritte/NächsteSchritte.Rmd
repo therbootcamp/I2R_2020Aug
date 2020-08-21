@@ -727,7 +727,7 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
   </td>
 
   <td>
-  <a href="www.rcpp.org/"><img border="0" alt="W3Schools" src="http://t3.gstatic.com/images?q=tbn:ANd9GcSO9T6JQYtpQgcaCXudbqMB-fnvTjGowsnmeh9-BQku3zveR4-J" height="180" ></a>
+  <a href="www.rcpp.org/"><img border="0" alt="W3Schools" src="https://assets.thalia.media/img/artikel/09be684f8f904312649b0aabdf417c7992cbcdad-00-00.jpeg" height="180" ></a>
   </td>
   
   
@@ -777,8 +777,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
 
 # Hilfe & Consulting
 
-<table class="tg"  style="cellspacing:0; cellpadding:0; border:none">
-  <col width="22%">
+<table class="tg"  style="cellspacing:0; cellpadding:0; border:none" width=70%>
   <col width="22%">
   <col width="22%">
   <tr>
@@ -793,17 +792,6 @@ Das Netz ist vll. der beste Ort für Informationen über R.
     <a href="https://cran.r-project.org/web/packages/cstab/index.html"><b>cstab</b></a>, <br>
     <a href="https://cran.r-project.org/web/packages/mousetrap/index.html"><b>mousetrap</b></a>, <a href="https://cran.r-project.org/web/packages/memnet/index.html"><b>memnet</b> <a href="https://github.com/dwulff/choicepp"><b>choicepp</b>
     </p>  
-  </th>
-  
-  <th class="tg-yw4l" valign='top'><p align="center"><br>
-    <a href="https://psychologie.unibas.ch/en/persons/markus-steiner/about-me/"><img border="0" alt="W3Schools" src="https://therbootcamp.github.io/img/team/2.png" height="230" style="border-radius:50%"></a><br>
-    <p align="center">
-    <font size = 5>Markus Steiner</font><br><br>
-    <a href="https://github.com/mdsteiner"><b>github.com/mdsteiner</b></a><br>
-    <font size=4><i>packages: </i></font> 
-    <a href="https://github.com/mdsteiner/ShinyPsych"><b>ShinyPsych</b></a>, <br>
-    <a href="https://github.com/mdsteiner/EFAdiff"><b>EFAdiff</b></a> <br><br>
-    </p>
   </th>
   
   <th class="tg-yw4l" valign='top'>
@@ -903,7 +891,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
 .pull-right45[
 
 <p align="center"><br><br>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe52p4R5I67j5f5JfqOQv16lEoKksklB3uDeVjc-_kND63hFw/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsm4niRCmExVvCpzhIqyaEWJsq7GPFjNihBvYDUt0It8hUfA/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
 
 ]
 

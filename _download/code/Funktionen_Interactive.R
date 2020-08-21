@@ -12,11 +12,10 @@
 
 ### Funktionen haben help files ------------------------------------------------
 
-# Um zu lernen wie eine Funktion funktioniert, können wir das help file aufrufen.
 # Schaue dir das help file der sum() Funktion an. Verwende hierzu das Fragezeichen 
 # ? und dann den namen der Funktion.
 
-# Welches sind die wichtigsten Abschnitte eines help files
+# Welches sind die wichtigsten Abschnitte des sum() help files (und anderer)
 
 ### Funktionen haben (normalerweise) Argumente ---------------------------------
 

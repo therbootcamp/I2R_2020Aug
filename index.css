@@ -16,7 +16,7 @@
  background: url(src/img/background_narrow.jpeg);
  background-size: cover;
  color: white;
- padding: 30px 20% 70px 15%;
+ padding: 30px 22% 70px 22%;
  margin-left: calc(-50vw + 50%);
  margin-right: calc(-50vw + 50%);
  margin-top: -20px;
@@ -78,16 +78,16 @@ h2 {
 
 .my-table {
   font-size:2rem;
-  font-family: 'Droid-serif';
+  font-family: Montserrat;
   border-spacing: 8px 4px;
   line-height: 1.2;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   }
 
 .my-table th {
   font-size:.7em;
-  font-weight:500;
+  font-weight:100;
   width: 100;
   text-align: right;
   vertical-align: top;
@@ -95,7 +95,7 @@ h2 {
   }
 
 .my-table td {
-  font-weight:300;
+  font-weight:100;
   vertical-align: top;
   padding: 6px 0px 6px 6px;
   border-radius:8px;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .td-special-grey {
-  font-weight:300;
+  font-weight:100;
   font-style: italic;
   background-color:#DDDEE0;
   color:#000000;
@@ -143,7 +143,6 @@ a {
 .zoom td {
   border-radius:8px;
   min-width: 260px;
-  max-width: 320px;
 }
 
 .zoom a {
@@ -161,7 +160,7 @@ a {
 }
 
 .sub {font-weight:400;}
-e {font-weight: 900;}
+e {font-weight: 100;}
 r {color: #FF3A2A;}
 
 .my-table a {
@@ -183,4 +182,35 @@ r {color: #FF3A2A;}
 }
 .downloads .inactive {
   color: #DDDEE0;
+}
+
+.courses td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.courses h4 {
+  font-weight: 400;
+  margin-bottom: 11px;
+  }
+
+.course-img {
+  max-width: 120px;
+  border-radius: 50%;
+  border: 7px solid #e9ecef;
+}
+
+.literature td {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.literature h4 {
+  font-weight: 400;
+  margin-bottom: 11px;
+  }
+
+.literature-img {
+  max-height: 150px;
+  border: 2px solid #e9ecef;
 }
