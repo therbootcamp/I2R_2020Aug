@@ -13,7 +13,6 @@ my_vec <- 1:3
 # Zeige den Vektor my_vec in der Konsole an.
 my_vec
 
-
 ### Funktionen haben help files ------------------------------------------------
 
 # Schaue dir das help file der sum() Funktion an. Verwende hierzu das Fragezeichen

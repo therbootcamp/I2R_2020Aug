@@ -6,25 +6,25 @@
 
 ### Einfache Statistiken ----------------------------
 
-# Lese den Datei Tourismus.csv als `daten` ein
+# Lese die Datei Tourismus.csv als `daten` ein.
 
-# Berechne den Mittelwert (mean()) von den Variablen Besucher und Dauer
+# Berechne den Mittelwert (mean()) der Variablen `Besucher` und `Dauer`.
 
-# Berechne den Median (median()) von den Variablen Besucher und Dauer
+# Berechne den Median (median()) der Variablen `Besucher` und `Dauer`.
 
-# Berechne die Standardabweichung (sd()) von den Variablen Besucher und Dauer
+# Berechne die Standardabweichung (sd()) der Variablen `Besucher` und `Dauer`.
 
-# Berechne die Korrelation (cor()) zwischen den Variablen Besucher und Dauer
+# Berechne die Korrelation (cor()) zwischen den Variablen `Besucher` und `Dauer`.
 
 ### Einfache Graphiken ----------------------------
 
-# Plotte ein Histogram (hist()) für die Variable Besucher
+# Plotte ein Histogram (hist()) für die Variable `Besucher`.
 
-# Plotte ein Histogram (hist()) für die Variable Dauer
+# Plotte ein Histogram (hist()) für die Variable `Dauer`.
 
-# Plotte ein Streudiagram (plot()) für die Variablen Dauer und Besucher
+# Plotte ein Streudiagram (plot()) für die Variablen `Dauer` und `Besucher`.
 
-# Ändere die Achsen des Streudiagrams zu log-Skalen
+# Ändere die Achsen des Streudiagrams zu log-Skalen.
 
-# Plotte ein Boxplot für Besucher als Funktion von Region
+# Plotte ein Boxplot für `Besucher` als Funktion von `Region`.
 

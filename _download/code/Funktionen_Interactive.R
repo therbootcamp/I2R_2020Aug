@@ -6,16 +6,16 @@
 
 ### Jede Aktion wird durch eine Funktion ausgeführt ----------------------------
 
-# Generiere einen Vektor, der die Elemente 1,2 und 3 enthält und nenne ihn my_vec.
+# Generiere einen Vektor, der die Elemente 1, 2 und 3 enthält und nenne ihn my_vec.
 
 # Zeige den Vektor my_vec in der Konsole an.
 
 ### Funktionen haben help files ------------------------------------------------
 
 # Schaue dir das help file der sum() Funktion an. Verwende hierzu das Fragezeichen 
-# ? und dann den namen der Funktion.
+# ? und dann den Namen der Funktion.
 
-# Welches sind die wichtigsten Abschnitte des sum() help files (und anderer)
+# Welches sind die wichtigsten Abschnitte des sum() help files (und anderer)?
 
 ### Funktionen haben (normalerweise) Argumente ---------------------------------
 
@@ -25,7 +25,7 @@
 # Füge mit Hilfe des folgenden Codes ein NA am Ende des Vektors my_vec hinzu.
 my_vec <- c(my_vec, NA)
 
-# Printe einmal my_vec um zu sehen was sich verändert hat
+# Printe einmal my_vec um zu sehen was sich verändert hat.
 
 # Berechne nun nochmals die Summe von my_vec. Was ist das Ergebnis und warum?
 

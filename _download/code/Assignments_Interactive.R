@@ -6,7 +6,7 @@
 
 ### <- kreiert Objekte ----------------------------
 
-# Was ist Funktion, was ist Objekt
+# Was ist Funktion, was ist Objekt?
 eins_zwei_drei <- c(1, 2, 3) 
 
 # Funktioniert das?
@@ -23,13 +23,13 @@ eins_zwei_drei + 10
 # Ändert sich hier das Objekt?
 eins_zwei_drei_plus10 <- eins_zwei_drei + 10 
 
-# Was kommt hier raus
+# Was kommt hier raus?
 was_ist_das <- eins_zwei_drei + vier_fünf_sechs 
 
-# Was kommt hier raus
+# Was kommt hier raus?
 was_ist_das <- eins_zwei_drei + vier_fünf_sechs * sieben_acht_neun 
 
-# Was steckt hinter dem Objekt
+# Was steckt hinter dem Objekt?
 was_ist_das # probiert es aus
 
 ### Objekt <- Funktion ----------------------------
