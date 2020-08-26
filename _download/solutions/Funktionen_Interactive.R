@@ -10,27 +10,23 @@
 my_vec <- c(1, 2, 3)
 my_vec <- 1:3
 
-# Wie viele (sichtbaren) Funktionen wurden hierbei aufgerufen?
-#> 2; im ersten Fall `<-` und c(), und im zweiten Fall `<-` und `:`
-
 # Zeige den Vektor my_vec in der Konsole an.
 my_vec
 
 
 ### Funktionen haben help files ------------------------------------------------
 
-# Um zu lernen wie eine Funktion funktioniert, können wir das help file aufrufen.
-# Schaue dir das help file der "sum()" Funktion an.
+# Schaue dir das help file der sum() Funktion an. Verwende hierzu das Fragezeichen
+# ? und dann den namen der Funktion.
 ?sum
 help(sum)
 
-# Welches sind die wichtigsten Abschnitte eines help files (Achtung subjektiv und 
-# vom jeweiligen help file abhängig).
+# Welches sind die wichtigsten Abschnitte des sum() help files (und anderer)
 #> Description: Gibt einen kurzen Überblick über das Ziel der Funktion.
 #> Usage: Zeigt die Funktion mit allen Argumenten und, falls vorhanden, den
 #>        dazugehörigen Defaults.
 #> Arguments: Gibt eine genauere Beschreibung der Argumente.
-#> Details: Detailiertere Informationen über die Funktion und die Methoden, die 
+#> Details: Detailiertere Informationen über die Funktion und die Methoden, die
 #>          angewendet werden. Hier gibt es sehr grosse Unterschiede im Detailgrad.
 #>          Es kommt ganz auf den Autor der Funktion an, wie genau alles
 #>          beschrieben wird.
@@ -41,15 +37,16 @@ help(sum)
 
 ### Funktionen haben (normalerweise) Argumente ---------------------------------
 
-# Die "sum()" Funktion berechnet den Mittelwert eines Objekts. Benutze sie um
+# Die sum() Funktion berechnet die Summe eines Objekts. Benutze sie um
 # die Summe aller Elemente in my_vec zu berechnen.
 sum(my_vec)
 
 # Füge mit Hilfe des folgenden Codes ein NA am Ende des Vektors my_vec hinzu.
 my_vec <- c(my_vec, NA)
 
+# Printe einmal my_vec um zu sehen was sich verändert hat
+
 # Berechne nun nochmals die Summe von my_vec. Was ist das Ergebnis und warum?
-sum(my_vec)
 #> NA, da na.rm = FALSE der Default ist, werden die NAs nicht ausgeschlossen.
 
 # Wiederhole die Berechnung der letzten Aufgabe, so dass das Resultat 6 ergibt.
@@ -76,22 +73,3 @@ class(my_vec)
 sum(my_vec, na.rm = TRUE)
 #> Wir erhalten eine Fehlermeldung, da die Klasse des Inputs nicht mit der Klasse
 #> des Outputs übereinstimmt.
-
-# Der folgende Code erstellt eine Matrix "my_mat" mit den Werten 1 bis 10 in zwei
-# Spalten.
-my_mat <- matrix(1:10, ncol = 2)
-
-# Überprüfe welche Klasse my_mat hat.
-class(my_mat)
-#> matrix
-
-# Berechne die Summe der Matrix.
-sum(my_mat)
-
-# Die sum() Funktion hat die Summe über alle Zellen der Matrix berechnet. Was wenn
-# wir nur die Summe pro Zeile wollen?
-sum(my_mat[1,])
-sum(my_mat[2,])
-#> ... Diese Art ist aber sehr umständlicher. Einfacher geht es mit rowSums().
-rowSums(my_mat)
-

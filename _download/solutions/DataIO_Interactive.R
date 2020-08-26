@@ -11,7 +11,7 @@
 # Bewege die Datei Tourismus.csv in deinen 1_Data Ordner
 
 # Lese die Datei mittels read.csv() ein. Denke an den Auto-Complete Trick
-read_csv("1_Data/Tourismus.csv")
+read.csv("1_Data/Tourismus.csv")
 
 # Stelle sicher, dass die Daten im Objekt mit Namen `daten` gespeichert sind
 daten <- read_csv("1_Data/Tourismus.csv")
@@ -39,4 +39,4 @@ daten$Nächte <- daten$Dauer * daten$Besucher
 ### Daten auf die Festplatte schreiben ----------------------------
 
 # Schreibe den Datensatz Tourismus zurück auf die Festplatte mit write.csv()
-write_csv(daten, "1_Data/Tourismus_neu.csv")
+write.csv(daten, "1_Data/Tourismus_neu.csv")
