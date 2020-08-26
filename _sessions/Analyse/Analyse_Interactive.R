@@ -1,13 +1,13 @@
 ### R Skript zu "Analyse"
 ### Kurs "Einführung in die moderne Datenanalyse mit R"
-### Datum: Februar 2020
+### Datum: August 2020
 ### Autor: The R Bootcamp
 
 
 ### Einfache Statistiken ----------------------------
 
 # Lese den Datei Tourismus.csv als `daten` ein
-daten <- read_csv("1_Data/Tourismus.csv")
+daten <- read.csv("1_Data/Tourismus.csv")
 
 # Berechne den Mittelwert (mean()) von den Variablen Besucher und Dauer
 mean(daten$Besucher)
@@ -40,4 +40,3 @@ plot(daten$Dauer, daten$Besucher, log = "x")
 
 # Plotte ein Boxplot für Besucher als Funktion von Region
 boxplot(daten$Besucher ~ daten$Region)
-
