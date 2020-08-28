@@ -62,7 +62,7 @@ options(digits = 4)
 knitr::opts_chunk$set(fig.align = 'center')
 ```
 
-
+<!---
 
 .pull-left45[
 <br><br><br><br><br>
@@ -81,8 +81,7 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 
 ]
 
----
-
+--->
 
 .pull-left6[
 

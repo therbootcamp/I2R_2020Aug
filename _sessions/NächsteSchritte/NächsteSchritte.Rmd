@@ -71,7 +71,7 @@ options(digits = 4)
 
 # Hallo Base R Experten
 
-Nach einem Nachmittag kennt ihr nun die Grundlagen von R!
+Nach einem Nachmittag kennt Ihr die Grundlagen von R!
 
 ]
 
@@ -91,7 +91,7 @@ Nach einem Nachmittag kennt ihr nun die Grundlagen von R!
 1. `tidyverse` Kern<br>
 2. `tidyverse` erweitert<br>
 3. Statistik<br>
-4. Machinelles lernen<br>
+4. Maschinelles Lernen<br>
 5. Reporting<br>
 
 </font>
@@ -561,7 +561,7 @@ summary(model)$coef[,-2]
 
 .pull-left45[
 
-# Maschinelles lernen
+# Maschinelles Lernen
 
 ```{r, message=F, eval=F}
 library(tidyverse) ; library(rpart)
