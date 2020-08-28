@@ -77,7 +77,7 @@ Nach einem Nachmittag kennt Ihr die Grundlagen von R!
 
 .pull-right4[
 
-<img src="image/schedule.png" height="580" align="center">
+<img src="image/schedule.png" height="580" align="center" style="padding-top:16px">
 ]
 
 ---
