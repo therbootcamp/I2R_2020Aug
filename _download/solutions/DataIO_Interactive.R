@@ -8,8 +8,6 @@
 
 # Finde die Datei Tourismus.csv auf deinem Computer.
 
-# Bewege die Datei Tourismus.csv in deinen \1_Data Ordner.
-
 # Lese die Datei mittels read.csv() ein. Denke an den Auto-Complete Trick!
 read.csv("1_Data/Tourismus.csv")
 
